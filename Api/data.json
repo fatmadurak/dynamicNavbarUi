@@ -1,0 +1,243 @@
+{
+    "data" :[
+    {
+      "label": "Anasayfa",
+      "link": "/anasayfa",
+      "order": 1,
+      "cssClass": "nav-item",
+      "function": "mainButton",
+      "color": "red",
+      "children": []
+    },
+    {
+      "label": "Hizmetlerimiz",
+      "link": "/hizmetlerimiz",
+      "order": 2,
+      "cssClass": "nav-item",
+      "function": "mainButton",
+      "color": "blue",
+      "children": [
+        {
+          "label": "Teknik Hizmetlerimiz",
+          "link": "/teknik-hizmetler",
+          "order": 1,
+          "cssClass": "sub-nav-item",
+          "function": "parentButton",
+          "color": "green",
+          "children": [
+            {
+              "label": "Frontend Teknolojileri",
+              "link": "/frontend-teknolojiler",
+              "order": 1,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "purple"
+            },
+            {
+              "label": "Backend Teknolojileri",
+              "link": "/backend-teknolojiler",
+              "order": 2,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "orange"
+            },
+            {
+              "label": "AWS Hizmetleri",
+              "link": "/aws-hizmetleri",
+              "order": 3,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "label": "Danışmanlık Hizmetlerimiz",
+          "link": "/danismanlik-hizmetleri",
+          "order": 2,
+          "cssClass": "sub-nav-item",
+          "function": "parentButton",
+          "color": "pink",
+          "children": [
+            {
+              "label": "Teknik Destek",
+              "link": "/teknik-destek",
+              "order": 1,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "blue"
+            },
+            {
+              "label": "Bilgilendirme Hizmetleri",
+              "link": "/bilgilendirme-hizmetleri",
+              "order": 2,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "green"
+            },
+            {
+              "label": "Mentorluk Hizmetleri",
+              "link": "/mentorluk-hizmetleri",
+              "order": 3,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "purple"
+            },
+            {
+              "label": "Danışmanlık Eğitimleri",
+              "link": "/danismanlik-egitimleri",
+              "order": 4,
+              "cssClass": "sub-nav-item",
+              "function": "parentButton",
+              "color": "yellow",
+              "children": [
+                {
+                  "label": "Sertifikalı Danışmanlık Hizmeti",
+                  "link": "/sertifikali-danismanlik-hizmeti",
+                  "order": 1,
+                  "cssClass": "sub-nav-item",
+                  "function": "childButton",
+                  "color": "orange"
+                },
+                {
+                  "label": "Kurumsal Danışmanlık Hizmeti",
+                  "link": "/kurumsal-danismanlik-hizmeti",
+                  "order": 2,
+                  "cssClass": "sub-nav-item",
+                  "function": "childButton",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "label": "Eğitim Öğretim Planlama",
+              "link": "/egitim-ogretim-planlama",
+              "order": 5,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "green"
+            },
+            {
+              "label": "Yazılım Danışmanlığı",
+              "link": "/yazilim-danismanligi",
+              "order": 6,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "purple"
+            },
+            {
+              "label": "Proje Danışmanlığı",
+              "link": "/proje-danismanligi",
+              "order": 7,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "orange"
+            }
+          ]
+        },
+        {
+          "label": "Hatalı Altyapı Onarımı",
+          "link": "/altyapi-onarimi",
+          "order": 3,
+          "cssClass": "sub-nav-item",
+          "function": "childButton",
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "label": "Hakkımızda",
+      "link": "/hakkimizda",
+      "order": 3,
+      "cssClass": "nav-item",
+      "function": "mainButton",
+      "color": "green",
+      "children": [
+        {
+          "label": "Biz Kimiz?",
+          "link": "/biz-kimiz",
+          "order": 1,
+          "cssClass": "sub-nav-item",
+          "function": "childButton",
+          "color": "purple"
+        },
+        {
+          "label": "Kurumsal",
+          "link": "/kurumsal",
+          "order": 2,
+          "cssClass": "sub-nav-item",
+          "function": "childButton",
+          "color": "orange"
+        },
+        {
+          "label": "Referanslarımız",
+          "link": "/referanslar",
+          "order": 3,
+          "cssClass": "sub-nav-item",
+          "function": "parentButton",
+          "color": "yellow",
+          "children": [
+            {
+              "label": "Geçmiş Referanslar",
+              "link": "/gecmis-referanslar",
+              "order": 1,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "blue"
+            },
+            {
+              "label": "Gelecek Referanslar",
+              "link": "/gelecek-referanslar",
+              "order": 2,
+              "cssClass": "sub-nav-item",
+              "function": "childButton",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Vizyon",
+          "link": "/vizyon",
+          "order": 4,
+          "cssClass": "sub-nav-item",
+          "function": "childButton",
+          "color": "purple"
+        },
+        {
+          "label": "Misyon",
+          "link": "/misyon",
+          "order": 5,
+          "cssClass": "sub-nav-item",
+          "function": "childButton",
+          "color": "orange"
+        }
+      ]
+    },
+    {
+      "label": "İletişim",
+      "link": "/iletisim",
+      "order": 4,
+      "cssClass": "nav-item",
+      "function": "mainButton",
+      "color": "purple",
+      "children": []
+    },
+    {
+      "label": "Kayıt Ol",
+      "link": "/kayit-ol",
+      "order": 5,
+      "cssClass": "nav-item",
+      "function": "mainButton",
+      "color": "orange",
+      "children": []
+    },
+    {
+      "label": "Giriş Yap",
+      "link": "/giris-yap",
+      "order": 6,
+      "cssClass": "nav-item",
+      "function": "mainButton",
+      "color": "yellow",
+      "children": []
+    }
+  ]}
