@@ -13,7 +13,7 @@ function Navbar() {
   if (error) return 'An error has occurred: ' + error.message
 
 
-
+ 
 
   
   return (
@@ -25,7 +25,8 @@ function Navbar() {
   
      return(
       <li  key={item.order} className="nav-item">
-      <a href={item.link}>{item.label}</a>
+      <a href={item.link} className="nav-link">{item.label}</a>
+
       </li>
      )
     
