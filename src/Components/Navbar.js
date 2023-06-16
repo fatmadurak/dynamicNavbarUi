@@ -16,35 +16,35 @@ function Navbar() {
  
 
   
+ 
+  const renderNavItem = (item) => {
+    if (item.children && item.children.length > 0) {
+      return (
+        <li key={item.order} className={item.cssClass}>
+          <a href={item.link} className="nav-link">
+            {item.label}
+          </a>
+          <ul className="sub-nav">
+            {item.children.map((child) => renderNavItem(child))}
+          </ul>
+        </li>
+      );
+    } else {
+      return (
+        <li key={item.order} className={item.cssClass}>
+          <a href={item.link} className="nav-link">
+            {item.label}
+          </a>
+        </li>
+      );
+    }
+  };
+
   return (
     <nav className="navbar">
-    <ul className="navbar-nav"> 
-  {
-     
-     data.map(item=>{
-  
-     return(
-      <li  key={item.order} className="nav-item">
-      <a href={item.link} className="nav-link">{item.label}</a>
-
-      </li>
-     )
-    
-   
-
-
-   })
-
- 
-  }
- 
-
-
- </ul>
-
-</nav>
-  
-  )
+      <ul className="navbar-nav">{data.map(renderNavItem)}</ul>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
