@@ -17,7 +17,7 @@ function Navbar() {
 
   
  
-  const renderNavItem = (item) => {
+  const navItem = (item) => {
     if (item.children && item.children.length > 0) {
       return (
         <li key={item.order} className={item.cssClass}>
@@ -25,7 +25,7 @@ function Navbar() {
             {item.label}
           </a>
           <ul className="sub-nav">
-            {item.children.map((child) => renderNavItem(child))}
+            {item.children.map((child) => navItem(child))}
           </ul>
         </li>
       );
@@ -42,7 +42,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <ul className="navbar-nav">{data.map(renderNavItem)}</ul>
+      <ul className="navbar-nav">{data.map(navItem)}</ul>
     </nav>
   );
 }
