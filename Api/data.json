@@ -6,7 +6,7 @@
       "order": 1,
       "cssClass": "nav-item",
       "function": "mainButton",
-      "color": "red",
+      "color": "blue",
       "children": []
     },
     {
@@ -39,7 +39,7 @@
               "order": 2,
               "cssClass": "sub-nav-item",
               "function": "childButton",
-              "color": "orange"
+              "color": "purple"
             },
             {
               "label": "AWS Hizmetleri",
@@ -47,7 +47,7 @@
               "order": 3,
               "cssClass": "sub-nav-item",
               "function": "childButton",
-              "color": "yellow"
+              "color": "purple"
             }
           ]
         },
@@ -57,7 +57,7 @@
           "order": 2,
           "cssClass": "sub-nav-item",
           "function": "parentButton",
-          "color": "pink",
+          "color": "green",
           "children": [
             {
               "label": "Teknik Destek",
@@ -65,7 +65,7 @@
               "order": 1,
               "cssClass": "sub-nav-item",
               "function": "childButton",
-              "color": "blue"
+              "color": "purple"
             },
             {
               "label": "Bilgilendirme Hizmetleri",
@@ -73,7 +73,7 @@
               "order": 2,
               "cssClass": "sub-nav-item",
               "function": "childButton",
-              "color": "green"
+              "color": "purple"
             },
             {
               "label": "Mentorluk Hizmetleri",
@@ -89,7 +89,7 @@
               "order": 4,
               "cssClass": "sub-nav-item",
               "function": "parentButton",
-              "color": "yellow",
+              "color": "purple",
               "children": [
                 {
                   "label": "Sertifikalı Danışmanlık Hizmeti",
@@ -97,7 +97,7 @@
                   "order": 1,
                   "cssClass": "sub-nav-item",
                   "function": "childButton",
-                  "color": "orange"
+                  "color": "red"
                 },
                 {
                   "label": "Kurumsal Danışmanlık Hizmeti",
@@ -105,7 +105,7 @@
                   "order": 2,
                   "cssClass": "sub-nav-item",
                   "function": "childButton",
-                  "color": "blue"
+                  "color": "red"
                 }
               ]
             },
@@ -115,7 +115,7 @@
               "order": 5,
               "cssClass": "sub-nav-item",
               "function": "childButton",
-              "color": "green"
+              "color": "purple"
             },
             {
               "label": "Yazılım Danışmanlığı",
@@ -131,7 +131,7 @@
               "order": 7,
               "cssClass": "sub-nav-item",
               "function": "childButton",
-              "color": "orange"
+              "color": "purple"
             }
           ]
         },
@@ -141,7 +141,7 @@
           "order": 3,
           "cssClass": "sub-nav-item",
           "function": "childButton",
-          "color": "yellow"
+          "color": "green"
         }
       ]
     },
@@ -151,7 +151,7 @@
       "order": 3,
       "cssClass": "nav-item",
       "function": "mainButton",
-      "color": "green",
+      "color":"blue",
       "children": [
         {
           "label": "Biz Kimiz?",
@@ -167,7 +167,7 @@
           "order": 2,
           "cssClass": "sub-nav-item",
           "function": "childButton",
-          "color": "orange"
+          "color": "purple"
         },
         {
           "label": "Referanslarımız",
@@ -175,7 +175,7 @@
           "order": 3,
           "cssClass": "sub-nav-item",
           "function": "parentButton",
-          "color": "yellow",
+          "color": "purple",
           "children": [
             {
               "label": "Geçmiş Referanslar",
@@ -183,7 +183,7 @@
               "order": 1,
               "cssClass": "sub-nav-item",
               "function": "childButton",
-              "color": "blue"
+              "color": "green"
             },
             {
               "label": "Gelecek Referanslar",
@@ -209,7 +209,7 @@
           "order": 5,
           "cssClass": "sub-nav-item",
           "function": "childButton",
-          "color": "orange"
+          "color": "purple"
         }
       ]
     },
@@ -219,7 +219,7 @@
       "order": 4,
       "cssClass": "nav-item",
       "function": "mainButton",
-      "color": "purple",
+      "color": "blue",
       "children": []
     },
     {
@@ -228,7 +228,7 @@
       "order": 5,
       "cssClass": "nav-item",
       "function": "mainButton",
-      "color": "orange",
+      "color": "blue",
       "children": []
     },
     {
@@ -237,7 +237,7 @@
       "order": 6,
       "cssClass": "nav-item",
       "function": "mainButton",
-      "color": "yellow",
+      "color": "blue",
       "children": []
     }
   ]}
