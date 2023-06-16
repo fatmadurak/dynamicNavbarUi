@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #f8f8f8;
+    padding: 16px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 16px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .sub-nav-item {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sub-nav-item  {
+    display: block;
+  }
+  
+  .sub-nav-item {
+    margin-top: 8px;
+  }
