@@ -237,7 +237,7 @@
     "order": 6,
     "cssClass": "nav-item",
     "function": "mainButton",
-    "color":"linear-gradient(#fff,#f8b500)",
+    "color": "linear-gradient(#fff,#f8b500)",
     "children": []
   }
 ]}
