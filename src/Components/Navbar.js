@@ -13,7 +13,11 @@ function Navbar() {
 
   const navItem = (item, index) => {
     const isMenuOpen = activeMenuItem === index;
-  
+
+    const handleSubMenuClick = (e) => {
+      e.stopPropagation();
+    };
+
     return (
       <li key={item.order} className={item.cssClass}>
         <div
@@ -24,12 +28,26 @@ function Navbar() {
           {item.label}
         </div>
         {isMenuOpen && item.children && (
-          <ul className="sub-nav">
+          <ul className="sub-nav" onClick={handleSubMenuClick}>
             {item.children.map((child) => (
               <li key={child.order}>
-                <a href={child.link} className="sub-menu-item">
-                  {child.label}
-                </a>
+                <div
+                  className={`sub-menu-item ${activeMenuItem === index ? 'open' : ''}`}
+                  onClick={() => handleMenuClick(index)}
+                >
+                  <a href={child.link}>{child.label}</a>
+                  {child.children && (
+                    <ul className={`sub-sub-nav ${activeMenuItem === index ? 'open' : ''}`}>
+                      {child.children.map((subChild) => (
+                        <li key={subChild.order}>
+                          <a href={subChild.link} className="sub-sub-menu-item">
+                            {subChild.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               </li>
             ))}
           </ul>
@@ -37,7 +55,6 @@ function Navbar() {
       </li>
     );
   };
-  
 
   return (
     <nav className="navbar">

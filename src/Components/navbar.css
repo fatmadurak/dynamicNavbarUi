@@ -43,7 +43,8 @@
   z-index: 1;
 }
 
-.navbar-nav li:hover .sub-nav {
+.navbar-nav li:hover > .sub-nav,
+.sub-menu-item.open > .sub-sub-nav {
   display: block;
 }
 
@@ -53,7 +54,36 @@
 
 .sub-menu-item {
   padding: 15px;
+  position: relative;
+  text-decoration: none;
+
+  
 }
+
+.sub-menu-item:hover .sub-sub-menu-item{
+
+  display: block;
+  background-color: #222;
+  width: 150px;
+  text-decoration: none;
+}
+
+.sub-sub-nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.sub-sub-menu-item {
+  display: none;
+  padding: 5px;
+}
+
+
 
 .active {
   color: #ff0;
