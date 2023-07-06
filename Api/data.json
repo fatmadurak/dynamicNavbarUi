@@ -31,7 +31,7 @@
             "order": 1,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "purple"
+            "color": "green"
           },
           {
             "label": "Backend Teknolojileri",
@@ -39,7 +39,7 @@
             "order": 2,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "purple"
+            "color": "green"
           },
           {
             "label": "AWS Hizmetleri",
@@ -47,7 +47,7 @@
             "order": 3,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "purple"
+            "color": "green"
           }
         ]
       },
@@ -65,7 +65,7 @@
             "order": 1,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "purple"
+            "color": "green"
           },
           {
             "label": "Bilgilendirme Hizmetleri",
@@ -73,7 +73,7 @@
             "order": 2,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "purple"
+            "color": "green"
           },
           {
             "label": "Mentorluk Hizmetleri",
@@ -81,7 +81,7 @@
             "order": 3,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "purple"
+            "color": "green"
           },
           {
             "label": "Danışmanlık Eğitimleri",
@@ -89,7 +89,7 @@
             "order": 4,
             "cssClass": "sub-nav-item",
             "function": "parentButton",
-            "color": "purple",
+            "color": "green",
             "children": [
               {
                 "label": "Sertifikalı Danışmanlık Hizmeti",
@@ -115,7 +115,7 @@
             "order": 5,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "purple"
+            "color": "green"
           },
           {
             "label": "Yazılım Danışmanlığı",
@@ -123,7 +123,7 @@
             "order": 6,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "purple"
+            "color": "green"
           },
           {
             "label": "Proje Danışmanlığı",
@@ -131,7 +131,7 @@
             "order": 7,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "purple"
+            "color": "green"
           }
         ]
       },
@@ -159,7 +159,7 @@
         "order": 1,
         "cssClass": "sub-nav-item",
         "function": "childButton",
-        "color": "purple"
+        "color": "green"
       },
       {
         "label": "Kurumsal",
@@ -167,7 +167,7 @@
         "order": 2,
         "cssClass": "sub-nav-item",
         "function": "childButton",
-        "color": "purple"
+        "color": "green"
       },
       {
         "label": "Referanslarımız",
@@ -175,7 +175,7 @@
         "order": 3,
         "cssClass": "sub-nav-item",
         "function": "parentButton",
-        "color": "purple",
+        "color": "green",
         "children": [
           {
             "label": "Geçmiş Referanslar",
@@ -183,7 +183,32 @@
             "order": 1,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "green"
+            "color": "green",
+            "children": [
+              {
+               
+          
+                "label": "x referansı",
+                "link": "/x-referansı",
+                "order":1,
+                "cssClass": "sub-sub-nav-item",
+                "color":"linear-gradient(#fff,#f8b500)",
+                "children": []
+             },
+             {"label": "y referansı",
+             "link": "/y-referansı",
+             "order":2, 
+             "cssClass": "sub-sub-nav-item",
+             "color":"linear-gradient(#fff,#f8b500)",
+             "children": []
+            },
+             {"label": "z referansı",
+              "link": "/z-referansı",
+              "order":3,
+              "cssClass": "sub-sub-nav-item",
+             "color":"linear-gradient(#fff,#f8b500)",
+             "children": []}
+            ]
           },
           {
             "label": "Gelecek Referanslar",
@@ -191,7 +216,31 @@
             "order": 2,
             "cssClass": "sub-nav-item",
             "function": "childButton",
-            "color": "green"
+            "color": "green",
+            "children": [
+              {
+                "label": "a referansı",
+                "link": "/a-referansı",
+                "order":1,
+                "cssClass": "sub-sub-nav-item",
+                "color":"linear-gradient(#fff,#f8b500)",
+                "children": []
+             },
+             {"label": "b referansı",
+             "link": "/b-referansı",
+             "order":2,
+             "cssClass": "sub-sub-nav-item",
+             "color":"linear-gradient(#fff,#f8b500)",
+             "children": []
+            },
+             {"label": "c referansı",
+             "link": "/c-referansı",
+             "order":3,
+             "cssClass": "sub-sub-nav-item",
+             "color":"linear-gradient(#fff,#f8b500)",
+             "children": []}
+            ]
+
           }
         ]
       },
@@ -201,7 +250,7 @@
         "order": 4,
         "cssClass": "sub-nav-item",
         "function": "childButton",
-        "color": "purple"
+        "color": "green"
       },
       {
         "label": "Misyon",
@@ -209,7 +258,7 @@
         "order": 5,
         "cssClass": "sub-nav-item",
         "function": "childButton",
-        "color": "purple"
+        "color": "green"
       }
     ]
   },
