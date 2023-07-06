@@ -27,6 +27,7 @@
   transition: color 0.3s;
   font-weight: bold;
   cursor: pointer;
+ 
 }
 
 .nav-link:hover {
@@ -41,6 +42,7 @@
   background-color: #222;
   padding: 10px;
   z-index: 1;
+ color: white;
 }
 
 .navbar-nav li:hover > .sub-nav,
@@ -50,12 +52,13 @@
 
 .sub-nav li {
   margin-right: 0;
+
 }
 
 .sub-menu-item {
   padding: 15px;
   position: relative;
-  text-decoration: none;
+  
 
   
 }
