@@ -52,15 +52,13 @@ function Navbar() {
                     <ul className={`sub-sub-nav-item ${activeMenuItem === index ? 'open' : ''}`}>
                       {subChild.children.map((child) => (
                         <li key={child.order}>
-                          <a href={child.link} className="sub-sub-nav-item">
+                          <a href={child.link} className="sub-sub-nav-item-elements">
                             {child.label}
                           </a>
 
-  
                           </li>))}</ul>)}
 
-                 
-                         
+        
                         </li>
                       ))}
                     </ul>
